@@ -176,7 +176,7 @@
 
 
         function iniciarJogo() {
-            palavraEscolhida = document.getElementById('palavra').value.toLowerCase();
+            palavraEscolhida = document.getElementById('palavra').value.trim().toLowerCase();
             let dicaB = document.getElementById('dicaBonus').value;
             var dica = document.getElementById('dica').value;
             if (palavraEscolhida !== '' && dica !== '') {

@@ -1,0 +1,135 @@
+@charset "utf-8";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, blueviolet, rgb(153, 119, 186));
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#dicaAtual {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+#chuteSection {
+    display: none;
+    margin-top: 20px;
+}
+
+#resultadoChute {
+    margin-top: 10px;
+    color: #333333;
+    font-size: 20px;
+}
+
+#tentativas {
+    margin-top: 10px;
+    color: #FF0000;
+}
+
+#venceu {
+    margin-top: 20px;
+    color: #4caf50;
+    font-size: 24px;
+}
+
+.acertou {
+    font-size: x-large;
+    font-weight: 700;
+    color: green;
+}
+
+.container:hover {
+    box-shadow: 1px 1px 20px rgb(27, 10, 41);
+}
+
+label:hover {
+    color: rgb(46, 7, 82);
+}
+.dicaAtual2{
+color: #FF0000;
+}
+#titulo {
+
+    
+}
+
+@keyframes tremor {
+0% {
+    transform: translate(0, 0);
+    color: black;
+}
+25% {
+    transform: translate(-5px, -5px);
+    color: red;
+}
+50% {
+    transform: translate(5px, 5px);
+    color: black;
+}
+75% {
+    transform: translate(-5px, 5px);
+    color: red;
+}
+100% {
+    transform: translate(0, 0);
+    color: black;
+}
+}
+
+.tremer {
+display: inline-block;
+animation: tremor 0.5s ease-in-out ;
+}
+.letraBig{
+font-size: larger;
+font-weight: 700;
+}

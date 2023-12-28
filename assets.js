@@ -18,6 +18,11 @@ function iniciarJogo() {
         document.getElementById('dica').style.display = 'none';
         document.getElementById('dicaAtual2').style.display = "none";
         document.getElementById('dicaBonus').style.display = 'none';
+
+        document.getElementById('plv').style.display = 'none';
+        document.getElementById('dc1').style.display = 'none';
+        document.getElementById('inicJ').style.display = 'none';
+
         document.getElementById('chuteSection').style.display = 'block';
     } else {
         alert('Por favor, preencha a palavra e a dica.');

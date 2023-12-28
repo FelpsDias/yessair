@@ -8,15 +8,16 @@
 </head>
 <body>
     <div class="container" id="gameContainer">
-        <h1 id="titulo">Adivinhe a palavra </h1>
+        <h1 id="titulo">LGC GAMES</h1>
         <p class="acertou"></p>
-        <label for="palavra">Insira uma palavra:</label>
+        <label for="palavra" id="plv" >Escolha a palavra que deve ser adivinhada:</label>
         <input type="text" id="palavra" placeholder="Palavra">
-        <label for="dica">Insira até 2 dicas:</label>
+        <label for="dica" id="dc1">Insira até 2 dicas:</label>
         <input type="text" id="dica" placeholder="Dica principal">
         <input type="text"  id="dicaBonus" placeholder="Dica bônus">
+        <p>Fique atento as acentuações</p>
 
-        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        <button onclick="iniciarJogo()" id="inicJ">Iniciar Jogo</button>
         <div id="dicaAtual"></div>
         <div id="dicaAtual2"></div>
 

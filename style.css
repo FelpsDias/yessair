@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to right, blueviolet, rgb(153, 119, 186));
+    background-image: linear-gradient(to right, blue, rgb(153, 119, 186));
 }
 
 .container {
